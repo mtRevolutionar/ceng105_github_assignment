@@ -3,7 +3,7 @@ int main()
 {
   int x,y,result;
   char a;
-  printf("toplama yapmak için '+' ye basiniz,çıkarma yapmak için '-',çarpma yapmak için '*' ve bölme yapmak için '/'.\n");
+  printf("toplama yapmak için '+' ye basiniz,çıkarma yapmak için '-',çarpma yapmak için '*' ve bölme yapmak için '/' basınız.\n");
   scanf("%c",&a);
   if (a=='+')
   {
