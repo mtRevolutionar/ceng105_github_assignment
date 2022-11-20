@@ -12,21 +12,21 @@ int main()
     result= x+y;
     printf("sayilarin toplami:%d",result);
   }
-  if else(a=='-'){
+  else if(a=='-'){
     printf("iki sayi giriniz");
     scanf("%d %d " , &x ,&y);
     result=x-y;
     printf("sayıların çıkarımı:%d" ,result);
   }
-  if else(a=='*'){
+  else if(a=='*'){
     printf("iki sayi giriniz");
-    scanf("%d %d" ,&a ,&b);
+    scanf("%d %d" ,&x ,&y);
     result=x*y;
     printf("sayıların çarpımı=%d",result);
   }
   else{
     printf("iki sayi giriniz");
-    scanf("%d %d" ,&a ,&b);
+    scanf("%d %d" ,&x ,&y);
     result=x/y;
     printf("sayıların bölümü=%d",result);
   }
