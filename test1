@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int x,y,sum;
+  char a,b;
+  printf("toplama yapmak için t ye basiniz:\n");
+  scanf("%c",&a);
+  if (a=='t')
+  {
+    printf("iki sayı giriniz:");
+    scanf("%d%d",&x, &y);
+    sum= x+y;
+    printf("sayilarin toplami:%d",sum);
+  }
+
+}
