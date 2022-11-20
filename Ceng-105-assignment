@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+  int x,y,result;
+  char a;
+  printf("toplama yapmak için '+' ye basiniz,çıkarma yapmak için '-',çarpma yapmak için '*' ve bölme yapmak için '/'.\n");
+  scanf("%c",&a);
+  if (a=='+')
+  {
+    printf("iki sayı giriniz:");
+    scanf("%d%d",&x, &y);
+    result= x+y;
+    printf("sayilarin toplami:%d",result);
+  }
+  if else(a=='-'){
+    printf("iki sayi giriniz");
+    scanf("%d %d " , &x ,&y);
+    result=x-y;
+    printf("sayıların çıkarımı:%d" ,result);
+  }
+  if else(a=='*'){
+    printf("iki sayi giriniz");
+    scanf("%d %d" ,&a ,&b);
+    result=x*y;
+    printf("sayıların çarpımı=%d",result);
+  }
+  else{
+  
+  
+  }
+  
+  
+return0;
+}
