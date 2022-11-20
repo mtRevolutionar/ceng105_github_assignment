@@ -10,25 +10,25 @@ int main()
     printf("iki sayı giriniz:");
     scanf("%lf %lf",&x, &y);
     result= x+y;
-    printf("sayilarin toplami:%lf",result);
+    printf("sayilarin toplami:%.lf",result);
   }
   else if(a=='-'){
     printf("iki sayi giriniz");
     scanf("%lf %lf " , &x ,&y);
     result=x-y;
-    printf("sayıların çıkarımı:%lf" ,result);
+    printf("sayıların çıkarımı:%.lf" ,result);
   }
   else if(a=='*'){
     printf("iki sayi giriniz");
     scanf("%lf %lf" ,&x ,&y);
     result=x*y;
-    printf("sayıların çarpımı=%lf",result);
+    printf("sayıların çarpımı=%.lf",result);
   }
   else{
     printf("iki sayi giriniz");
     scanf("%lf %lf" ,&x ,&y);
     result=x/y;
-    printf("sayıların bölümü=%lf",result);
+    printf("sayıların bölümü=%.lf",result);
   }
   
   
