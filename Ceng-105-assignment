@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-  int x,y,result;
+  int x,y;
+  double result;
   char a;
   printf("toplama yapmak için '+' ye basiniz,çıkarma yapmak için '-',çarpma yapmak için '*' ve bölme yapmak için '/' basınız.\n");
   scanf("%c",&a);
